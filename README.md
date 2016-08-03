@@ -4,14 +4,12 @@ This is my GIT playground
 ========================
 
 
-Create Repository
-=================
+#Create Repository
 
 I created a new repository called playground on github via browser
 
 
-Clone the repository, do some edits and write them back
-=======================================================
+#Clone the repository, do some edits and write them back
 
 The next commands are written local on my computer  
 
@@ -25,6 +23,7 @@ Status check
 * git status
 
 I edit a file in the editor nano
+(Markup cheat sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 * nano README.md
 
 Status Check
