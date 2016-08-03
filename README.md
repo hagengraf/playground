@@ -1,15 +1,42 @@
 # playground
-
+=========================
 This is my GIT playground
+========================
 
-I created the repository on the github website
 
-git clone https://github.com/hagengraf/playground.git
-git status
-cd playground/
-git status
-nano README.md
-git status
-git commit -a
-git status
-git push
+Create Repository
+=================
+
+I created a new repository called playground on github via browser
+
+
+Clone the repository, do some edits and write them back
+=======================================================
+
+The next commands are written local on my computer  
+
+Cloning the repo 
+* git clone https://github.com/hagengraf/playground.git
+
+The folder playground was created and I have to go in
+* cd playground/
+
+Status check
+* git status
+
+I edit a file in the editor nano
+* nano README.md
+
+Status Check
+* git status
+
+I commit the changes to origin/master
+* git commit -a
+
+Status Check
+* git status
+
+Push changes to repo
+* git push
+
+
