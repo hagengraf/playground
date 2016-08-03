@@ -14,7 +14,7 @@ I created a new repository called playground on github via browser
 The next commands are written local on my computer  
 
 Cloning the repo 
-* 'git clone https://github.com/hagengraf/playground.git'
+'git clone https://github.com/hagengraf/playground.git'
 
 The folder playground was created and I have to go in
 * 'cd playground/'
