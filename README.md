@@ -14,35 +14,35 @@ I created a new repository called playground on github via browser
 The next commands are written local on my computer  
 
 Cloning the repo 
-* git clone https://github.com/hagengraf/playground.git
+* `git clone https://github.com/hagengraf/playground.git`
 
 The folder playground was created and I have to go in
-* cd playground/
+* `cd playground/`
 
 Status check
-* git status
+* `git status`
 
 I edit a file in the editor nano
 (Markup cheat sheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-* nano README.md
+* `nano README.md`
 
 Status Check
-* git status
+* `git status`
 
 I commit the changes to origin/master
-* git commit -a
+* `git commit -a`
 
 Status Check
-* git status
+* `git status`
 
 Push changes to repo
-* git push
+* `git push`
 
 
 #Create a new branch, do some edits and write them back
-* git checkout -b newbranch
-* nano README.md
-* git push --set-upstream origin neuebranch
+* `git checkout -b newbranch`
+* `nano README.md`
+* `git push --set-upstream origin newbranch`
 
 
 Now you have to make a pull request, merge the changes and delete the branch (if you don't need it anymore)
