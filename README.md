@@ -47,3 +47,19 @@ Imagine you have the master branch and 2 others, let's say newbranch and stable1
 You change something in newbranch and push it to master, create a pull request and merge it.
 Now master and newbranch are the same, stable10 is different.
 Now comes the cherry picking
+
+
+* git fetch origin stable10
+* git checkout stable10
+* git checkout -b backport-<pull request id> (without #)
+* git cherry-pick <commit id>
+* git push origin backport-<pull request id>
+
+
+* git checkout -b backport-3
+* git cherry-pick 0a59db5
+* git push origin backport-3
+* git checkout stable10
+* pull origin stable10
+* git branch -v
+* git branch -d backport-3
