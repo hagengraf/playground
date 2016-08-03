@@ -2,12 +2,9 @@
 =========================
 This is my GIT playground
 ========================
-
-
 #Create Repository
 
 I created a new repository called playground on github via browser
-
 
 #Clone the repository, do some edits and write them back
 
@@ -38,11 +35,15 @@ Status Check
 Push changes to repo
 * `git push`
 
-
 #Create a new branch, do some edits and write them back
 * `git checkout -b newbranch`
 * `nano README.md`
 * `git push --set-upstream origin newbranch`
 
-
 Now you have to make a pull request, merge the changes and delete the branch (if you don't need it anymore)
+
+#Cherry Picking
+Imagine you have the master branch and 2 others, let's say newbranch and stable10.
+You change something in newbranch and push it to master, create a pull request and merge it.
+Now master and newbranch are the same, stable10 is different.
+Now comes the cherry picking
