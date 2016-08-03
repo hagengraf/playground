@@ -39,3 +39,7 @@ Push changes to repo
 * git push
 
 
+#Create a new branch, do some edits and write them back
+* git checkout -b newbranch
+* nano README.md
+
