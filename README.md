@@ -42,4 +42,7 @@ Push changes to repo
 #Create a new branch, do some edits and write them back
 * git checkout -b newbranch
 * nano README.md
+* git push --set-upstream origin neuebranch
 
+
+Now you have to make a pull request, merge the changes and delete the branch (if you don't need it anymore)
