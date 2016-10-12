@@ -6,7 +6,7 @@
  * Time: 16:29
  */
 
-
+//jdhjdjfhadlkjfhajkdfhajf
 phpinfo();
 
 ?>
